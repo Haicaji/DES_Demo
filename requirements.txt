@@ -1,0 +1,15 @@
+# DES加解密工具依赖项
+# 基本依赖
+pyinstaller>=5.8.0,<6.0.0
+
+# 如果需要打包为应用程序，请安装：
+# cx_Freeze>=6.10,<7.0
+# auto-py-to-exe>=2.30.0,<3.0.0
+
+# 本项目主要使用Python标准库，包括：
+# - tkinter (GUI)
+# - binascii (编码处理)
+# - os, sys (系统操作)
+# - threading (多线程)
+# - argparse (命令行参数)
+# - time, random (工具函数)

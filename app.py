@@ -10,12 +10,16 @@ from gui.des_gui import main as gui_main
 
 def parse_arguments():
     """解析命令行参数"""
-    parser = argparse.ArgumentParser(description='DES加密解密工具')
+    parser = argparse.ArgumentParser(description='DES加密解密工具 - 支持所有类型的文件加密')
     parser.add_argument('--cli', action='store_true', help='使用命令行界面而非图形界面')
     return parser.parse_args()
 
 def main():
-    """程序主入口函数"""
+    """
+    程序主入口函数
+    该程序可以加密解密任何类型文件，包括文本文件、图像、视频、音频等二进制文件，
+    唯一的限制是文件大小，因为需要将文件加载到内存中进行处理。
+    """
     args = parse_arguments()
     
     if args.cli:
