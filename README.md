@@ -18,7 +18,7 @@
 
 1. 克隆或下载本仓库
    ```
-   git clone https://github.com/yourusername/DES_Demo.git
+   git clone https://github.com/Haicaji/DES_Demo.git
    cd DES_Demo
    ```
 
